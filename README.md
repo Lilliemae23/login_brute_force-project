@@ -1,4 +1,4 @@
-# login brute force project
+# login Brute Force Project
 
 Simple PHP Login Security Lab – Brute Force \& Account Lockout
 
