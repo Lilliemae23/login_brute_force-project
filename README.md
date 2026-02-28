@@ -34,7 +34,7 @@ Implement account lockout after failed attempts
 
 Learn basic defensive coding in PHP
 
-Tools \& Environment
+Tools & Environment
 
 Kali Linux
 
@@ -60,11 +60,7 @@ Password: password123
 The page accepts POST login requests and displays either success or failure.
 
 
-<<<<<<< HEAD
-brute-force-photos/login\_page.png
-=======
 ![Login page](brute-force-photos/login-page.png)
->>>>>>> b5d3aed70c2348f3c45b84dee2085306794b0a8c
 
 Login Page
 
