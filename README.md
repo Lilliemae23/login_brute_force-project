@@ -97,7 +97,7 @@ Successful Login
 
 # Failed Login Attempts
 
-The system was modified to track failed login attempts per user session.
+The system was modified to track failed login attempts per user session. Wrong passwords were used to attempt if lockout will work.
 
 ![Failed Attempt Counter](brute-force-photos/login-failed-attempts.png) 
 
