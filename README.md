@@ -58,7 +58,7 @@ The page accepts POST login requests and displays either success or failure.
 
 Insert Screenshot = login page
 
-brute-force-photos/login-page.png 
+_(brute-force-photos/login-page.png)_ 
 
 Login Page
 
