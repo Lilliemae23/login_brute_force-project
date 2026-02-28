@@ -85,14 +85,15 @@ Hydra attack
 
 Once the credentials were known, login succeeded through the browser.
 
-Insert Screenshot — Successful Login
+![Successful login](brute-force-photos/login-successful-after-hydra.png)
+
+Successful Login
 
 
 
  Failed Login Attempts
 
 The system was modified to track failed login attempts per user session.
-
 
 ![Failed Attempt Counter](brute-force-photos/login-failed-attempts.png) 
 
@@ -112,7 +113,9 @@ Further login attempts are blocked
 
 This prevents brute-force attacks from continuing indefinitely.
 
-Insert Screenshot — Account Lockout Message
+![Account Lockou Message](brute-force-photos/account-Lockout-after-failed-login-attempts.png)
+
+Account Lockout Message
 
  
 
