@@ -1,10 +1,10 @@
-# login\_brute\_force-project
+# login brute force project
 
 Simple PHP Login Security Lab – Brute Force \& Account Lockout
 
 
 
-Project Overview
+# Project Overview
 
 This project shows how login systems can be attacked using brute-force techniques and how account lockout can mitigate those attacks.
 
@@ -22,7 +22,7 @@ The project also reflects the real troubleshooting process beginners experience 
 
 
 
-Learning Objectives
+# Learning Objectives
 
 Understand how web login authentication works
 
@@ -48,8 +48,7 @@ RockYou wordlist
 
 
 
- 
- Lab Setup
+# Lab Setup
 
 A simple PHP login page was created with hardcoded credentials:
 
@@ -65,10 +64,9 @@ The page accepts POST login requests and displays either success or failure.
 Login Page
 
 
-
  
 
- Brute Force Attack
+# Brute Force Attack
 
 Hydra was used to perform a dictionary-based brute-force attack against the login form using the RockYou password list.
 
@@ -85,7 +83,9 @@ predictable password
 Hydra attack
 
 
- Successful Login
+
+
+# Successful Login
 
 Once the credentials were known, login succeeded through the browser.
 
@@ -95,7 +95,7 @@ Successful Login
 
 
 
- Failed Login Attempts
+# Failed Login Attempts
 
 The system was modified to track failed login attempts per user session.
 
@@ -105,7 +105,7 @@ Failed Attempt Counter
 
 
 
- Account Lockout Mitigation
+# Account Lockout Mitigation
 
 A lockout mechanism was implemented:
 
@@ -123,7 +123,7 @@ Account Lockout Message
 
  
 
- Security Insight
+# Security Insight
 
 Brute-force attacks rely on unlimited login attempts.
 Without controls, attackers can eventually guess passwords.
@@ -140,7 +140,7 @@ This project demonstrates a foundational defensive control used in real authenti
 
  
 
- Beginner Notes
+# Beginner Notes
 
 This lab involved significant troubleshooting, including:
 
@@ -156,7 +156,7 @@ Working through these issues was part of my learning process
 
  
 
-My Key Takeaway
+# My Key Takeaway
 
 Even a very simple login system can be vulnerable.
 Basic protections like account lockout dramatically improve security against automated attacks.
