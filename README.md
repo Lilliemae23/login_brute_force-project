@@ -59,9 +59,12 @@ Password: password123
 
 The page accepts POST login requests and displays either success or failure.
 
-Insert Screenshot = login page
 
+<<<<<<< HEAD
 brute-force-photos/login\_page.png
+=======
+![Login page](brute-force-photos/login-page.png)
+>>>>>>> b5d3aed70c2348f3c45b84dee2085306794b0a8c
 
 Login Page
 
@@ -81,15 +84,18 @@ no lockout
 
 predictable password
 
-Insert Screenshot — Hydra Attack Output
-
+![Hydra Attack Output](brute-force-photos/hydra-attack-and-password-found.png)
  
+Hydra attack
 
- Successful Login
+
+ Successful Login
 
 Once the credentials were known, login succeeded through the browser.
 
-Insert Screenshot — Successful Login
+![Successful login](brute-force-photos/login-successful-after-hydra.png)
+
+Successful Login
 
 
 
@@ -97,9 +103,11 @@ Insert Screenshot — Successful Login
 
 The system was modified to track failed login attempts per user session.
 
-Insert Screenshot — Failed Attempt Counter
+![Failed Attempt Counter](brute-force-photos/login-failed-attempts.png) 
 
- 
+Failed Attempt Counter
+
+
 
  Account Lockout Mitigation
 
@@ -113,7 +121,9 @@ Further login attempts are blocked
 
 This prevents brute-force attacks from continuing indefinitely.
 
-Insert Screenshot — Account Lockout Message
+![Account Lockou Message](brute-force-photos/account-Lockout-after-failed-login-attempts.png)
+
+Account Lockout Message
 
  
 
@@ -150,7 +160,7 @@ Working through these issues was part of my learning process
 
  
 
- Key Takeaway
+My Key Takeaway
 
 Even a very simple login system can be vulnerable.
 Basic protections like account lockout dramatically improve security against automated attacks.
