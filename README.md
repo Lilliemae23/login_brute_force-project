@@ -152,7 +152,7 @@ Working through these issues was part of my learning process
 
  
 
- Key Takeaway
+My Key Takeaway
 
 Even a very simple login system can be vulnerable.
 Basic protections like account lockout dramatically improve security against automated attacks.
