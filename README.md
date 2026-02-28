@@ -76,11 +76,12 @@ no lockout
 
 predictable password
 
-Insert Screenshot — Hydra Attack Output
 ![Hydra Attack Output](brute-force-photos/hydra-attack-and-password-found.png)
  
+Hydra attack
 
- Successful Login
+
+ Successful Login
 
 Once the credentials were known, login succeeded through the browser.
 
@@ -92,9 +93,12 @@ Insert Screenshot — Successful Login
 
 The system was modified to track failed login attempts per user session.
 
-Insert Screenshot — Failed Attempt Counter
 
- 
+![Failed Attempt Counter](brute-force-photos/login-failed-attempts.png) 
+
+Failed Attempt Counter
+
+
 
  Account Lockout Mitigation
 
