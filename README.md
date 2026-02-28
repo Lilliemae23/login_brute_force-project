@@ -1,6 +1,7 @@
-# login_brute_force-project
+# login\_brute\_force-project
 
-Simple PHP Login Security Lab – Brute Force & Account Lockout
+Simple PHP Login Security Lab – Brute Force \& Account Lockout
+
 
 
 Project Overview
@@ -20,6 +21,7 @@ implementing account lockout protection
 The project also reflects the real troubleshooting process beginners experience while learning web security concepts.
 
 
+
 Learning Objectives
 
 Understand how web login authentication works
@@ -32,7 +34,7 @@ Implement account lockout after failed attempts
 
 Learn basic defensive coding in PHP
 
-Tools & Environment
+Tools \& Environment
 
 Kali Linux
 
@@ -43,6 +45,7 @@ PHP
 Hydra (brute-force tool)
 
 RockYou wordlist
+
 
 
  
@@ -58,9 +61,10 @@ The page accepts POST login requests and displays either success or failure.
 
 Insert Screenshot = login page
 
-brute_force_photos/login_page.png 
+brute-force-photos/login\_page.png
 
 Login Page
+
 
 
  
@@ -150,3 +154,4 @@ Working through these issues was part of my learning process
 
 Even a very simple login system can be vulnerable.
 Basic protections like account lockout dramatically improve security against automated attacks.
+
