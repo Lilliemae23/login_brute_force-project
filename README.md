@@ -58,6 +58,7 @@ The page accepts POST login requests and displays either success or failure.
 
 Insert Screenshot 
 brute force photos/login_page.png — Login Page
+brute force photos/login_page.png
 
  
 
