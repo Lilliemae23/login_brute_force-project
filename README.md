@@ -56,7 +56,6 @@ Password: password123
 
 The page accepts POST login requests and displays either success or failure.
 
-Insert Screenshot = login page
 
 ![Login page](brute-force-photos/login-page.png)
 
